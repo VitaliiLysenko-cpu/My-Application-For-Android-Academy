@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity(), OnChangeFragmentClickListener {
+class MainActivity : AppCompatActivity(), OnChangeFragmentClickListener,OnDeleteFragmentClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         val frame = FrameLayout(this)
@@ -30,6 +30,13 @@ class MainActivity : AppCompatActivity(), OnChangeFragmentClickListener {
                 .beginTransaction()
                 .addToBackStack("Back")
                 .add(R.id.container_fragment, FragmentMoviesDetails())
+                .commit()
+    }
+
+    override fun deleteFragment() {
+        supportFragmentManager
+                .beginTransaction()
+                .add(R.id.container_fragment, FragmentMoviesList())
                 .commit()
     }
 }
