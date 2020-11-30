@@ -3,36 +3,74 @@
     
     <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
     
-    <style name="back">
+    <style name="Back">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
     
-    <style name="some_id">
+    <style name="Some_id">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
     
-    <style name="name">
+    <style name="Name">
         <item name="android:textSize">40sp</item>
         <item name="android:textColor">#ECECEC</item>
     </style>
     
-    <style name="tag">
+    <style name="Tag">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FF3466</item>
     </style>
+    
     <style name="Reviews">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#6D6D80</item>
     </style>
-    <style name="story_content">
+    
+    <style name="Story_content">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
-    <style name="text_cast">
+    
+    <style name="Text_cast">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#D8D8D8</item>
+    </style>
+    
+    <style name="Movies_list">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="Plus_13">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    
+    <style name="Rating" parent="Widget.AppCompat.RatingBar.Small">
+        <item name="android:minHeight">16dp</item>
+        <item name="android:maxHeight">16dp</item>
+    </style>
+    
+    <style name="Name_for_move_list">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ECECEC</item>
+    </style>
+    
+    <style name="Min">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#565665</item>
+    </style>
+    
+    <style name="Text_tag">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#FF3466</item>
+    </style>
+    
+    <style name="Value_reviews">
+        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">#6D6D80</item>
     </style>
 
 

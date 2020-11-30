@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:text="@string/back"
-            android:textAppearance="@style/back"
+            android:textAppearance="@style/Back"
             app:layout_constraintStart_toEndOf="@id/path"
             app:layout_constraintTop_toTopOf="@id/path" />
         
@@ -75,7 +75,7 @@
             android:layout_height="16dp"
             android:layout_marginTop="226dp"
             android:text="@string/some_id"
-            android:textAppearance="@style/some_id"
+            android:textAppearance="@style/Some_id"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
         
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="254dp"
             android:text="@string/name"
-            android:textAppearance="@style/name"
+            android:textAppearance="@style/Name"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
@@ -96,7 +96,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="@string/text_teg"
-            android:textAppearance="@style/tag"
+            android:textAppearance="@style/Tag"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
             app:layout_constraintTop_toBottomOf="@id/name" />
@@ -150,7 +150,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="@string/story_content"
-            android:textAppearance="@style/story_content"
+            android:textAppearance="@style/Story_content"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toEndOf="@id/guideline_start"
             app:layout_constraintTop_toBottomOf="@id/storyline" />
@@ -209,7 +209,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:text="@string/name_actor_4"
-            android:textAppearance="@style/text_cast"
+            android:textAppearance="@style/Text_cast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_1"
             app:layout_constraintStart_toStartOf="@id/image_actor_1"
             app:layout_constraintTop_toBottomOf="@id/image_actor_1" />
@@ -219,7 +219,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_2"
-            android:textAppearance="@style/text_cast"
+            android:textAppearance="@style/Text_cast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_2"
             app:layout_constraintStart_toStartOf="@id/image_actor_2"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />
@@ -229,7 +229,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_3"
-            android:textAppearance="@style/text_cast"
+            android:textAppearance="@style/Text_cast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_3"
             app:layout_constraintStart_toStartOf="@id/image_actor_3"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />
@@ -239,7 +239,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_4"
-            android:textAppearance="@style/text_cast"
+            android:textAppearance="@style/Text_cast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_4"
             app:layout_constraintStart_toStartOf="@id/image_actor_4"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />

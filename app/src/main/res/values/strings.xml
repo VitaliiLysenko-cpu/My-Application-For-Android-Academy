@@ -17,4 +17,10 @@
     <string name="name_actor_2">Chris \nEvans</string>
     <string name="name_actor_3">Mark \nRuffalo</string>
     <string name="hello_world">Hello world</string>
+    <string name="movies_list">Movies list</string>
+    <string name="_13">13+</string>
+    <string name="avengers_end_game">Avengers: End Game</string>
+    <string name="action_adventure_drama">Action, Adventure, Drama</string>
+    <string name="value_min">137</string>
+    <string name="min">Min</string>
 </resources>
