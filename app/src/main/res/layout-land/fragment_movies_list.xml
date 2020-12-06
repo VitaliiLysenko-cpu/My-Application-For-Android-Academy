@@ -44,19 +44,19 @@
         
         <TextView
             android:id="@+id/text_view_movies_list"
-            android:layout_width="200dp"
-            android:layout_height="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="6dp"
             android:text="@string/movies_list"
-            android:textAppearance="@style/Movies_list"
+            android:textAppearance="@style/MoviesList"
             app:layout_constraintStart_toEndOf="@id/combined_shape"
             app:layout_constraintTop_toTopOf="@id/combined_shape" />
         
         
         <ImageView
             android:id="@+id/avengers_draw"
-            android:layout_width="166dp"
-            android:layout_height="246dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
             android:layout_marginTop="2dp"
             android:background="@drawable/avengers_draw"
@@ -65,8 +65,8 @@
         
         <ImageView
             android:id="@+id/mask"
-            android:layout_width="170dp"
-            android:layout_height="296dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="27dp"
             android:background="@drawable/mask_for_movies_list"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -103,12 +103,12 @@
         
         <TextView
             android:id="@+id/text_tag"
-            android:layout_width="146dp"
-            android:layout_height="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="214dp"
             android:text="@string/action_adventure_drama"
-            android:textAppearance="@style/Text_tag"
+            android:textAppearance="@style/TextTag"
             app:layout_constraintStart_toStartOf="@id/avengers_draw"
             app:layout_constraintTop_toTopOf="@id/mask" />
         
@@ -131,7 +131,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="@string/value_reviews"
-            android:textAppearance="@style/Value_reviews"
+            android:textAppearance="@style/ValueReviews"
             app:layout_constraintBottom_toBottomOf="@id/ratingBar"
             app:layout_constraintStart_toEndOf="@id/ratingBar"
             app:layout_constraintTop_toTopOf="@id/ratingBar" />
@@ -142,7 +142,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="2dp"
             android:text="@string/reviews"
-            android:textAppearance="@style/Value_reviews"
+            android:textAppearance="@style/ValueReviews"
             app:layout_constraintStart_toEndOf="@+id/value_reviews"
             app:layout_constraintTop_toTopOf="@+id/value_reviews" />
         
@@ -153,7 +153,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="30dp"
             android:text="@string/avengers_end_game"
-            android:textAppearance="@style/Name_for_move_list"
+            android:textAppearance="@style/NameForMoveList"
             app:layout_constraintStart_toStartOf="@id/avengers_draw"
             app:layout_constraintTop_toBottomOf="@id/text_tag" />
         
