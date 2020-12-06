@@ -8,7 +8,7 @@
         <item name="android:textColor">#FFFFFF</item>
     </style>
     
-    <style name="Some_id">
+    <style name="SomeId">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
@@ -28,17 +28,17 @@
         <item name="android:textColor">#6D6D80</item>
     </style>
     
-    <style name="Story_content">
+    <style name="StoryContent">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
     
-    <style name="Text_cast">
+    <style name="TextCast">
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">#D8D8D8</item>
     </style>
     
-    <style name="Movies_list">
+    <style name="MoviesList">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
     </style>
@@ -53,7 +53,7 @@
         <item name="android:maxHeight">16dp</item>
     </style>
     
-    <style name="Name_for_move_list">
+    <style name="NameForMoveList">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#ECECEC</item>
     </style>
@@ -63,12 +63,12 @@
         <item name="android:textColor">#565665</item>
     </style>
     
-    <style name="Text_tag">
+    <style name="TextTag">
         <item name="android:textSize">8sp</item>
         <item name="android:textColor">#FF3466</item>
     </style>
     
-    <style name="Value_reviews">
+    <style name="ValueReviews">
         <item name="android:textSize">8sp</item>
         <item name="android:textColor">#6D6D80</item>
     </style>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <style name="Story_content">
+    <style name="StoryContent">
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:lineHeight">20dp</item>
