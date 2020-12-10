@@ -1,5 +1,6 @@
 package com.vitaliilysenko.app.myapplicationforandroidacademy
 
+import android.content.Context
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -33,11 +34,15 @@ class FragmentMoviesList : Fragment() {
         return view
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        recyclerMovie.apply {
-            layoutManager= GridLayoutManager(activity,2)
-
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        if (context is OnChangeFragmentClickListener) {
+            onChangeFragmentClickListener = context
         }
+    }
+
+    override fun onDetach() {
+        super.onDetach()
+        onChangeFragmentClickListener = null
     }
 }

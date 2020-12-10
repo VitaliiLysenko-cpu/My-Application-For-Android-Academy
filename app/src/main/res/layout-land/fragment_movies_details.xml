@@ -6,11 +6,7 @@
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="match_parent">
         
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline_start"
@@ -25,7 +21,7 @@
             android:layout_height="0dp"
             android:orientation="vertical"
             app:layout_constraintGuide_end="16dp" />
-        
+    
         <ImageView
             android:id="@+id/bg"
             android:layout_width="0dp"
@@ -33,25 +29,28 @@
             android:background="@drawable/bg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    
         <ImageView
             android:id="@+id/mask"
             android:layout_width="0dp"
-            android:layout_height="298dp"
-            android:layout_marginTop="16dp"
-            android:background="@drawable/orig"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/orig"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
-        
+    
         <ImageView
             android:id="@+id/path"
             android:layout_width="6dp"
             android:layout_height="0dp"
             android:layout_marginTop="58dp"
-            android:background="@drawable/path"
+            android:src="@drawable/path"
             app:layout_constraintBottom_toBottomOf="@id/back"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
@@ -65,27 +64,27 @@
             android:textAppearance="@style/Back"
             app:layout_constraintStart_toEndOf="@id/path"
             app:layout_constraintTop_toTopOf="@id/path" />
-        
+    
         <TextView
             android:id="@+id/some"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="154dp"
+            android:layout_marginTop="136dp"
             android:text="@string/some_id"
             android:textAppearance="@style/SomeId"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
-            app:layout_constraintTop_toTopOf="@id/back" />
-        
+            app:layout_constraintTop_toBottomOf="@+id/path" />
+    
         <TextView
             android:id="@+id/title_movie"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="254dp"
+            android:layout_marginTop="26dp"
             android:text="@string/name"
             android:textAppearance="@style/Name"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
-            app:layout_constraintTop_toTopOf="@id/bg" />
+            app:layout_constraintTop_toBottomOf="@+id/some" />
         
         <TextView
             android:id="@+id/tag"
@@ -167,8 +166,8 @@
             android:id="@+id/image_actor_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="7dp"
-            android:background="@drawable/robert"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/robert"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_2"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toBottomOf="@+id/cast" />
@@ -177,7 +176,7 @@
             android:id="@+id/image_actor_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chris"
+            android:src="@drawable/chris"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_3"
             app:layout_constraintStart_toEndOf="@id/image_actor_1"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />
@@ -186,7 +185,7 @@
             android:id="@+id/image_actor_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/mark"
+            android:src="@drawable/mark"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_4"
             app:layout_constraintStart_toEndOf="@id/image_actor_2"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />
@@ -195,7 +194,7 @@
             android:id="@+id/image_actor_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chris_hemsworth"
+            android:src="@drawable/chris_hemsworth"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toEndOf="@id/image_actor_3"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />

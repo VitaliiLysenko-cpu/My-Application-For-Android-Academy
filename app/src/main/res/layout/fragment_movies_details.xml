@@ -6,11 +6,7 @@
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="wrap_content">
         
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline_start"
@@ -39,9 +35,10 @@
         <ImageView
             android:id="@+id/mask"
             android:layout_width="0dp"
-            android:layout_height="298dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
             android:layout_marginTop="16dp"
-            android:background="@drawable/orig"
+            android:src="@drawable/orig"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
@@ -51,7 +48,7 @@
             android:layout_width="6dp"
             android:layout_height="0dp"
             android:layout_marginTop="58dp"
-            android:background="@drawable/path"
+            android:src="@drawable/path"
             app:layout_constraintBottom_toBottomOf="@id/back"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
@@ -168,7 +165,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
-            android:background="@drawable/robert"
+            android:src="@drawable/robert"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_2"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toBottomOf="@+id/cast" />
@@ -177,7 +174,7 @@
             android:id="@+id/image_actor_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chris"
+            android:src="@drawable/chris"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_3"
             app:layout_constraintStart_toEndOf="@id/image_actor_1"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />
@@ -186,7 +183,7 @@
             android:id="@+id/image_actor_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/mark"
+            android:src="@drawable/mark"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_4"
             app:layout_constraintStart_toEndOf="@id/image_actor_2"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />
@@ -195,7 +192,7 @@
             android:id="@+id/image_actor_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/chris_hemsworth"
+            android:src="@drawable/chris_hemsworth"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toEndOf="@id/image_actor_3"
             app:layout_constraintTop_toTopOf="@+id/image_actor_1" />
