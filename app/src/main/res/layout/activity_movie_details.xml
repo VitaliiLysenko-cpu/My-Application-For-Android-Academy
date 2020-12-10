@@ -74,7 +74,7 @@
             android:layout_height="16dp"
             android:layout_marginTop="226dp"
             android:text="@string/some_id"
-            android:textAppearance="@style/Some_id"
+            android:textAppearance="@style/SomeId"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
         
@@ -149,7 +149,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:text="@string/story_content"
-            android:textAppearance="@style/Story_content"
+            android:textAppearance="@style/StoryContent"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toEndOf="@id/guideline_start"
             app:layout_constraintTop_toBottomOf="@id/storyline" />
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="6dp"
             android:text="@string/name_actor_4"
-            android:textAppearance="@style/Text_cast"
+            android:textAppearance="@style/TextCast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_1"
             app:layout_constraintStart_toStartOf="@id/image_actor_1"
             app:layout_constraintTop_toBottomOf="@id/image_actor_1" />
@@ -218,7 +218,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_2"
-            android:textAppearance="@style/Text_cast"
+            android:textAppearance="@style/TextCast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_2"
             app:layout_constraintStart_toStartOf="@id/image_actor_2"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />
@@ -228,7 +228,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_3"
-            android:textAppearance="@style/Text_cast"
+            android:textAppearance="@style/TextCast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_3"
             app:layout_constraintStart_toStartOf="@id/image_actor_3"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />
@@ -238,7 +238,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/name_actor_4"
-            android:textAppearance="@style/Text_cast"
+            android:textAppearance="@style/TextCast"
             app:layout_constraintEnd_toEndOf="@id/image_actor_4"
             app:layout_constraintStart_toStartOf="@id/image_actor_4"
             app:layout_constraintTop_toTopOf="@id/name_actor_1" />

@@ -24,20 +24,20 @@
     
     <ImageView
         android:id="@+id/poster"
-        android:layout_width="166dp"
-        android:layout_height="246dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:layout_marginTop="2dp"
-        android:background="@drawable/avengers_draw"
+        android:src="@drawable/avengers_draw"
         app:layout_constraintStart_toStartOf="@id/mask"
         app:layout_constraintTop_toTopOf="@id/mask" />
     
     <ImageView
         android:id="@+id/mask"
-        android:layout_width="170dp"
-        android:layout_height="296dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:background="@drawable/mask_for_movies_list"
+        android:src="@drawable/mask_for_movies_list"
         app:layout_constraintStart_toStartOf="@id/guideline_start"
         app:layout_constraintTop_toTopOf="parent" />
     
@@ -67,7 +67,7 @@
         android:layout_height="18dp"
         android:layout_marginTop="13dp"
         android:layout_marginEnd="6dp"
-        android:background="@drawable/like"
+        android:src="@drawable/like"
         app:layout_constraintEnd_toEndOf="@id/mask"
         app:layout_constraintTop_toTopOf="@id/mask" />
     
