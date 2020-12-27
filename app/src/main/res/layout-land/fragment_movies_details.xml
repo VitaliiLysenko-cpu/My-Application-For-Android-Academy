@@ -21,17 +21,19 @@
             android:layout_height="0dp"
             android:orientation="vertical"
             app:layout_constraintGuide_end="16dp" />
-        
+    
         <ImageView
             android:id="@+id/bg"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/bg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-        
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+    
         <ImageView
             android:id="@+id/mask"
             android:layout_width="0dp"
@@ -42,7 +44,7 @@
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
             app:layout_constraintTop_toTopOf="@id/bg" />
-        
+    
         <ImageView
             android:id="@+id/path"
             android:layout_width="6dp"
@@ -62,7 +64,7 @@
             android:textAppearance="@style/Back"
             app:layout_constraintStart_toEndOf="@id/path"
             app:layout_constraintTop_toTopOf="@id/path" />
-        
+    
         <TextView
             android:id="@+id/some"
             android:layout_width="wrap_content"
@@ -74,7 +76,7 @@
             app:layout_constraintTop_toBottomOf="@id/back" />
         
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/title_movie"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
@@ -82,18 +84,18 @@
             android:textAppearance="@style/Name"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
-            app:layout_constraintTop_toBottomOf="@id/some" />
+            app:layout_constraintTop_toBottomOf="@+id/some" />
         
         <TextView
             android:id="@+id/tag"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
-            android:text="@string/text_teg"
+            android:text="@string/film_genre"
             android:textAppearance="@style/Tag"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
-            app:layout_constraintTop_toBottomOf="@id/name" />
+            app:layout_constraintTop_toBottomOf="@id/title_movie" />
         
         <RatingBar
             android:id="@+id/ratingBar"

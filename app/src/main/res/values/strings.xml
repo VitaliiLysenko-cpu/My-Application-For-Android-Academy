@@ -6,7 +6,7 @@
     <string name="back">Back</string>
     <string name="some_id">13+</string>
     <string name="name">Avengers:\nEnd Game</string>
-    <string name="text_teg">Action, Adventure, Fantasy</string>
+    <string name="film_genre">Action, Adventure, Fantasy</string>
     <string name="text_view">TextView</string>
     <string name="reviews">Reviews</string>
     <string name="value_reviews">125</string>
