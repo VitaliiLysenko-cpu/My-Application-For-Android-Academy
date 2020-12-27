@@ -6,7 +6,7 @@
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
         
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline_start"
@@ -24,8 +24,8 @@
         
         <ImageView
             android:id="@+id/bg"
-            android:layout_width="0dp"
-            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@drawable/bg"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -67,22 +67,22 @@
             android:id="@+id/some"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="154dp"
+            android:layout_marginTop="148dp"
             android:text="@string/some_id"
             android:textAppearance="@style/SomeId"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
-            app:layout_constraintTop_toTopOf="@id/back" />
+            app:layout_constraintTop_toBottomOf="@id/back" />
         
         <TextView
-            android:id="@+id/title_movie"
+            android:id="@+id/name"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="254dp"
+            android:layout_marginTop="26dp"
             android:text="@string/name"
             android:textAppearance="@style/Name"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
-            app:layout_constraintTop_toTopOf="@id/bg" />
+            app:layout_constraintTop_toBottomOf="@id/some" />
         
         <TextView
             android:id="@+id/tag"
@@ -93,7 +93,7 @@
             android:textAppearance="@style/Tag"
             app:layout_constraintEnd_toEndOf="@+id/guideline_end"
             app:layout_constraintStart_toStartOf="@+id/guideline_start"
-            app:layout_constraintTop_toBottomOf="@id/title_movie" />
+            app:layout_constraintTop_toBottomOf="@id/name" />
         
         <RatingBar
             android:id="@+id/ratingBar"
@@ -164,7 +164,7 @@
             android:id="@+id/image_actor_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="7dp"
+            android:layout_marginTop="8dp"
             android:src="@drawable/robert"
             app:layout_constraintEnd_toStartOf="@+id/image_actor_2"
             app:layout_constraintStart_toStartOf="@id/guideline_start"

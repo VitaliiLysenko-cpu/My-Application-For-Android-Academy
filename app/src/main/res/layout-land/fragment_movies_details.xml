@@ -6,7 +6,7 @@
     
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="0dp">
         
         <androidx.constraintlayout.widget.Guideline
             android:id="@+id/guideline_start"
@@ -38,8 +38,8 @@
             android:id="@+id/mask"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
             android:adjustViewBounds="true"
+            android:layout_marginTop="16dp"
             android:src="@drawable/orig"
             app:layout_constraintEnd_toEndOf="@id/guideline_end"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
@@ -69,12 +69,12 @@
             android:id="@+id/some"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="136dp"
+            android:layout_marginTop="148dp"
             android:text="@string/some_id"
             android:textAppearance="@style/SomeId"
             app:layout_constraintStart_toStartOf="@id/guideline_start"
-            app:layout_constraintTop_toBottomOf="@+id/path" />
-    
+            app:layout_constraintTop_toBottomOf="@id/back" />
+        
         <TextView
             android:id="@+id/title_movie"
             android:layout_width="0dp"

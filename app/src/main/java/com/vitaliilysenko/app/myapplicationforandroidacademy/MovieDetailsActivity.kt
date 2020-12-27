@@ -11,8 +11,5 @@ class MovieDetailsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_movie_details)
 
-        val ratingBar: RatingBar = findViewById<RatingBar>(R.id.ratingBar)
-        ratingBar.setOnRatingBarChangeListener { ratingBar: RatingBar, fl: Float, b: Boolean -> }
-        
     }
 }
